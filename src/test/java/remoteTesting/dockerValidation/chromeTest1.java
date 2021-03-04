@@ -27,7 +27,6 @@ public class chromeTest1 {
 	public void stopDockerDeleteFile() throws IOException, InterruptedException {
 		stopDocker d = new stopDocker();
 		d.stopFile();
-
 	}
 
 	@Test
@@ -37,7 +36,6 @@ public class chromeTest1 {
 		RemoteWebDriver driver = new RemoteWebDriver(u, cap);
 		driver.get("http://google.com");
 		System.out.println(driver.getTitle());
-
 	}
 
 }
